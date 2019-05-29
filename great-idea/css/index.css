@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 .website-wrapper {
 	width: 880px;
 	margin: 100px auto 100px auto;
+	/* why doesn't it look like there is 100px margin at the bottom? */
 }
 
 .navbar {
@@ -74,20 +75,27 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-between;
 }
 
+nav a {
+	text-decoration: none;
+	color: grey;
+}
+
 header {
 	display: flex;
 	justify-content: space-around;
+	margin: 30px;
 }
 
 .title-button {
 	display: flex;
 	justify-content: space-around;
 	flex-direction: column;
+	margin: 70px auto 70px auto;
 }
 
 button {
-	/* width: 100px; */
-	/* align-content: center; */
+	/* width: 100px;
+	align-content: center; */
 }
 
 h1 {
@@ -113,3 +121,6 @@ footer {
 	text-align: center;
 }
 
+hr {
+	color: solid black;
+}
