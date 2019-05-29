@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5 {
 .navbar {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 nav a {
@@ -91,11 +92,12 @@ header {
 	justify-content: space-around;
 	flex-direction: column;
 	margin: 70px auto 70px auto;
+	align-items: center;
 }
 
 button {
-	/* width: 100px;
-	align-content: center; */
+	width: 100px;
+
 }
 
 h1 {
@@ -123,4 +125,35 @@ footer {
 
 hr {
 	color: solid black;
+}
+
+/* Services specific CSS */
+
+ul {
+	list-style: disc inside;
+}
+
+.six-box-container {
+	display: flex;
+	width: 880px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.one-box-container {
+	display: flex;
+	border: 1px solid black;
+	background: lightgrey;
+	padding: 15px;
+	flex-direction: column;
+	width: 420px;
+	justify-content: space-between;
+}
+
+.one-box-container button {
+	/* align-items: center; */
+}
+
+.learn-more-button {
+
 }
