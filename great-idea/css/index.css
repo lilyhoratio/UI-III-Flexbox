@@ -65,9 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .website-wrapper {
-	width: 880px;
+	max-width: 880px;
 	margin: 100px auto 100px auto;
 	/* why isn't there 100px at the bottom of my page? */
+	/* border: 3px solid red; */
 }
 
 .navbar {
