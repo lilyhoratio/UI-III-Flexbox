@@ -81,6 +81,10 @@ nav a {
 	color: grey;
 }
 
+nav a:hover {
+	color: black;
+}
+
 header {
 	display: flex;
 	justify-content: space-around;
@@ -97,7 +101,6 @@ header {
 
 button {
 	width: 100px;
-
 }
 
 h1 {
