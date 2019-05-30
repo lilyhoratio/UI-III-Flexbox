@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 .website-wrapper {
 	width: 880px;
 	margin: 100px auto 100px auto;
-	/* why doesn't it look like there is 100px margin at the bottom? */
+	/* why isn't there 100px at the bottom of my page? */
 }
 
 .navbar {
@@ -143,17 +143,43 @@ ul {
 .one-box-container {
 	display: flex;
 	border: 1px solid black;
-	background: lightgrey;
-	padding: 15px;
+	background: #F4F3F4;
+	padding: 20px;
 	flex-direction: column;
 	width: 420px;
 	justify-content: space-between;
+	margin: 20px 0px 20px 0px;
+	/* not sure if there is a better way to get equal spacing between the boxes than manually setting these margins? don't want to apply margins, but do want equal spacing in between the two columns */
+
 }
 
 .one-box-container button {
-	/* align-items: center; */
+	margin: 10px auto auto 0px;
+	border-radius: 5px;
+	padding: 5px;
+	border: 1px solid black;
 }
 
-.learn-more-button {
+.services-header-img {
+	margin: 30px auto 30px auto;
+}
 
+h2 {
+	font-size: 180%;
+}
+
+hr {
+	margin: 25px 0px 25px 0px;
+}
+
+.bottom-section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-section-text {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	padding: 0px 20px 0px 20px;
 }
