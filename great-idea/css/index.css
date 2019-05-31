@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .website-wrapper {
 	max-width: 920px;
+	margin-top: 56px;
 	margin-left: auto;
 	margin-right: auto;
 	/* border: 3px solid red; */
@@ -73,9 +74,14 @@ h1, h2, h3, h4, h5 {
 }
 
 .navbar {
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
+	background-color: lightsteelblue;
 }
 
 nav a {
@@ -90,7 +96,7 @@ nav a:hover {
 header {
 	display: flex;
 	justify-content: space-around;
-	margin: 30px;
+	margin: 0px;
 }
 
 .title-button {
