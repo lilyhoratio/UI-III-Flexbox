@@ -82,6 +82,16 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-around;
 	align-items: center;
 	background-color: lightsteelblue;
+	animation-name: stretch;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+}
+
+@keyframes stretch {
+	0% {
+		transform: scale(.9);
+		background-color: white;
+	}
 }
 
 nav a {
