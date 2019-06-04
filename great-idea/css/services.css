@@ -107,51 +107,72 @@ nav a:hover {
 }
 
 hr {
-	color: solid black;
-	margin: 20px auto;
+	border-top: 2px solid black;
 }
 
-/* Index page specific */
+/* Services page specific */
 
-header {
+.six-box-container {
 	display: flex;
-	justify-content: space-around;
-	margin: 0px;
-}
-
-.title-button {
-	display: flex;
-	justify-content: space-around;
-	flex-direction: column;
-	margin: 70px auto 70px auto;
-	align-items: center;
-}
-
-.title-button button {
-	width: 140px;
-    border: 1px solid black;
-    padding: 5px 10px;
-}
-
-.title-button h1 {
-	font-size: 300%;
-	text-align: center;
-}
-
-.top-section {
-	display: flex;
+	/* width: 880px; */
+	width: 100%; /* this helps with responsiveness when browser width gets smaller */
+	flex-wrap: wrap;
 	justify-content: space-between;
-	flex-direction: row;
-	margin: 20px auto 20px auto;
+	margin-top: 30px;
+}
+
+.one-box-container {
+	display: flex;
+	border: 1px solid black;
+	background: #F4F3F4;
+	padding: 20px;
+	flex-direction: column;
+	/* width: 420px; */
+	width: 48%;
+	justify-content: space-between;
+	margin: 0px 0px 30px 0px;
+	/* not sure if there is a better way to get equal spacing between the boxes than manually setting these margins? don't want to apply margins, but do want equal spacing in between the two */
+
+}
+
+.one-box-container button {
+	margin: 10px auto auto 0px;
+	border-radius: 5px;
+	padding: 5px;
+	border: 1px solid black;
+	width: 30%;
+}
+
+.services-header-img {
+	margin: 30px auto 30px auto;
+}
+
+h2 {
+	font-size: 180%;
 }
 
 .bottom-section {
 	display: flex;
 	justify-content: space-between;
-	flex-direction: row;
-	margin: 20px 10px;
+	width: 100%;
 }
 
-footer {
-	text-align: center;
+.bottom-section-text {
+	/* width: 48%; */ /*Adding width here doesn't seem to do much with the page. When is width needed?*/
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	padding: 0px 20px 0px 20px;
+}
+
+.bottom-section-text ul {
+	list-style: square inside;
+}
+
+.bottom-section-text ul li {
+	padding-bottom: 5px;
+}
+
+#services-paragraph {
+	padding-bottom: 30px;
 }
